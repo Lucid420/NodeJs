@@ -20,7 +20,7 @@ app.use(bodyparser.urlencoded({
 app.use(bodyparser.json());
 
 app.get('/', (req, res) => {
-    res.send('Express working!!!');
+    res.send('Amazon AWS deployment sucessful');
   });
 
 app.listen(3000, () => {
